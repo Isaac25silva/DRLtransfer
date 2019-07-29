@@ -1,0 +1,50 @@
+#VRML_SIM R2018a utf8
+# A black and white soccer ball with customizable radius and mass.
+# This object is physics-enabled so it will roll or bounce when hit.
+
+PROTO SoccerBall [
+  field SFVec3f translation 0 0.1 0
+  field SFRotation rotation 0 1 0 0
+  field SFString name "soccer ball"
+  field SFFloat radius 0.0546656733469
+  field SFFloat mass 0.6
+  field MFVec3f centerOfMass [0 -0.0001 0]
+  field SFFloat linearDamping 0.17
+  field SFFloat angularDamping 0.33
+]
+{
+  Solid {
+    translation IS translation
+    rotation IS rotation
+    children [
+      DEF FOOTBALL_SHAPE Shape {
+        appearance Appearance {
+          material Material {
+          }
+          texture ImageTexture {
+            url [
+              "textures/football6.jpg"
+            ]
+          }
+        }
+        geometry Sphere {
+          radius IS radius
+          subdivision 2
+        }
+      }
+    ]
+    name IS name
+    model "soccer ball"
+    boundingObject USE FOOTBALL_SHAPE
+    physics Physics {
+      mass IS mass
+      density -1
+      centerOfMass IS centerOfMass
+      inertiaMatrix [ 0.000023 0.000023 0.000023, 0 0 0 ]
+      damping Damping {
+        linear IS linearDamping
+        angular IS angularDamping
+      }
+    }
+  }
+}

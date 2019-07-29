@@ -1,0 +1,8 @@
+Webots Proto Cache File version 1.3
+protoFileHash: 49713a3f8ca115ff66da6b885b87d0c5
+containsDevices: 0
+baseType: Solid
+slotType: 
+parameters: translation,rotation,contactMaterial,frame1Color,frame2Color,postRadius
+tags: 
+info: Robot\ssoccer\sfield\sinspired\sfrom\sthe\sRoboCup\s2014\sStandard\sPlatform\sLeague\nThe\ssoccer\sfield\sis\sbuilt\son\sa\stotal\scarpet\sarea\sof\slength\s10.4\sm\sand\swidth\s7.4\sm\nThe\sfield\sdimensions\s(within\sthe\swhite\slines)\sare\s9\sx\s6\sm\n

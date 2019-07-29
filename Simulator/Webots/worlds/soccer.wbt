@@ -1,0 +1,126 @@
+#VRML_SIM R2018a utf8
+WorldInfo {
+  info [
+    "ROBOTIS OP2 robot."
+    "The ROBOTIS OP2 robot simulation model can be programmed using the ROBOTIS OP2 motions files and the ROBOTIS OP2 walk control library."
+  ]
+  title "ROBOTIS OP2"
+  basicTimeStep 16
+  FPS 25
+}
+Viewpoint {
+  orientation 0.20222707969228662 0.973433598518801 0.10738359983660263 5.3800404
+  position 1.0108755 1.5161238 2.2556508
+  follow "ROBOTIS OP2"
+}
+DEF BACKGROUND Background {
+  skyColor [
+    0.90196 0.81961 0.75294
+  ]
+}
+DEF LIGHT2 DirectionalLight {
+  ambientIntensity 1
+  direction -0.5 -2 -0.5
+  intensity 0.7
+}
+DEF LIGHT1 DirectionalLight {
+  ambientIntensity 1
+  direction 0.5 -0.5 0.5
+  intensity 0.7
+}
+DEF SoccerField RobotstadiumSoccerField {
+}
+DEF ROBOTISOP2 RobotisOp2 {
+  hidden position_0_0 -4.55943e-8
+  hidden position_0_1 -3.33067e-8
+  hidden position_0_2 -5.3509e-8
+  hidden position_0_3 0.721868
+  hidden position_0_4 -0.844739
+  hidden linearVelocity_0 8.60515e-8 -6.74889e-8 -4.34984e-7
+  hidden angularVelocity_0 3.65993e-9 -1.80715e-5 -7.2614e-7
+  hidden position_10_0 0.173556
+  hidden linearVelocity_10 1.88291e-7 -1.20785e-7 8.96754e-7
+  hidden angularVelocity_10 1.24954e-7 -1.75436e-5 -7.26533e-7
+  hidden rotation_11 1 0 0 0.6118453699999891
+  hidden linearVelocity_11 1.89328e-7 -1.57863e-7 1.30892e-6
+  hidden angularVelocity_11 1.2148e-7 -1.75436e-5 -1.78182e-6
+  hidden position_15_0 -0.00614332
+  hidden linearVelocity_15 4.28769e-7 -9.59538e-8 -2.23908e-6
+  hidden angularVelocity_15 4.34827e-7 -1.84216e-5 -7.86711e-7
+  hidden rotation_16 0 0 1 0.006143319999971838
+  hidden position_16_0 0.631251
+  hidden linearVelocity_16 1.03181e-7 -7.46229e-8 -5.24393e-6
+  hidden angularVelocity_16 1.07936e-6 -1.84927e-5 -8.47973e-7
+  hidden rotation_17 -1 0 0 0.6312509999999998
+  hidden position_17_0 -0.929214
+  hidden linearVelocity_17 -1.77603e-7 -8.49932e-8 -6.98257e-6
+  hidden angularVelocity_17 1.58433e-6 -1.85385e-5 2.91904e-7
+  hidden rotation_18 1 0 0 0.9292139999999998
+  hidden position_18_0 -0.523738
+  hidden linearVelocity_18 -5.36798e-7 -5.37006e-8 -9.82611e-6
+  hidden angularVelocity_18 1.86916e-6 -1.86602e-5 -1.3104e-6
+  hidden rotation_19 -1 0 0 0.5237379999999999
+  hidden position_19_0 -0.0138226
+  hidden linearVelocity_19 -8.72144e-7 -1.69727e-8 -1.31885e-5
+  hidden angularVelocity_19 1.9564e-6 -1.86812e-5 -1.66818e-7
+  hidden rotation_20 0 0 -1 0.013822600000011743
+  hidden linearVelocity_20 -1.00412e-6 -4.14975e-10 -1.54494e-5
+  hidden angularVelocity_20 2.04433e-6 -1.86954e-5 -1.76998e-7
+  hidden position_21_0 0.00614333
+  hidden linearVelocity_21 -3.00496e-7 -9.56766e-8 2.77906e-6
+  hidden angularVelocity_21 -5.81026e-7 -1.84115e-5 -6.65077e-7
+  hidden rotation_22 0 0 -1 0.006143330000032317
+  hidden position_22_0 -0.63125
+  hidden linearVelocity_22 -1.7496e-8 -7.96304e-8 4.84896e-6
+  hidden angularVelocity_22 -1.22925e-6 -1.83615e-5 -6.03811e-7
+  hidden rotation_23 -1 0 0 0.6312499999999996
+  hidden position_23_0 0.929214
+  hidden linearVelocity_23 3.30981e-7 -7.86161e-8 8.30339e-6
+  hidden angularVelocity_23 -1.72697e-6 -1.83383e-5 5.49462e-7
+  hidden rotation_24 1 0 0 0.9292139999999998
+  hidden position_24_0 0.523738
+  hidden linearVelocity_24 5.98451e-7 -5.13326e-8 1.07855e-5
+  hidden angularVelocity_24 -2.02184e-6 -1.82388e-5 -9.70028e-7
+  hidden rotation_25 -1 0 0 0.5237379999999999
+  hidden position_25_0 0.0138226
+  hidden linearVelocity_25 8.56855e-7 -3.17574e-8 1.25364e-5
+  hidden angularVelocity_25 -2.10096e-6 -1.82394e-5 3.39913e-7
+  hidden rotation_26 0 0 1 0.013822600000011743
+  hidden linearVelocity_26 1.00225e-6 -4.78282e-9 1.5469e-5
+  hidden angularVelocity_26 -2.18372e-6 -1.82478e-5 3.50065e-7
+  hidden position_27_0 0.307178
+  hidden linearVelocity_27 1.41019e-6 -1.75198e-7 9.65706e-7
+  hidden angularVelocity_27 -1.15006e-8 -1.80715e-5 -5.38923e-6
+  hidden rotation_28 0 0 1 0.47822168999999937
+  hidden position_28_0 -0.516059
+  hidden linearVelocity_28 1.78136e-6 9.55796e-8 5.78668e-8
+  hidden angularVelocity_28 1.98629e-7 -1.83641e-5 -5.38991e-6
+  hidden linearVelocity_29 1.73181e-6 -1.0256e-8 6.10288e-7
+  hidden angularVelocity_29 -3.42321e-7 -1.87556e-5 -4.0935e-6
+  hidden rotation_30 1 0 0 0.8447389999999998
+  hidden position_30_0 -0.311786
+  hidden linearVelocity_30 -1.07764e-6 -1.70963e-7 9.47983e-7
+  hidden angularVelocity_30 -1.23812e-8 -1.80715e-5 -5.66031e-6
+  hidden rotation_31 0 0 -1 0.4736141199999995
+  hidden position_31_0 0.511451
+  hidden linearVelocity_31 -1.78694e-6 1.20776e-7 2.58071e-8
+  hidden angularVelocity_31 -7.43454e-8 -1.7958e-5 -5.6601e-6
+  hidden rotation_32 -1 0 0 2.0822506
+  hidden linearVelocity_32 -2.26653e-6 4.82126e-8 3.86364e-7
+  hidden angularVelocity_32 6.19763e-7 -1.75817e-5 -4.1304e-6
+  translation 2.86358 0.31721569 -0.012976454
+  rotation -0.11159475999884177 -0.9874269899897516 0.11195779999883801 -1.5866746
+  controller "soccer"
+  cameraHeight 100
+  jersey RobotisJersey {
+  }
+}
+Supervisor {
+  controller "supervisor"
+}
+DEF BALL1 Ball {
+  translation -3.25 0.058 0
+}
+DEF BALL SoccerBall {
+  translation 3.25 0.0455 0
+}
